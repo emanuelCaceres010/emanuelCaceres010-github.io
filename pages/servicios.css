@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.inicio-mis-servicios{
+    height:600px;
+    width: 100%;
+    background-color:#13171C;
+}
+
+.contenedor-palabras-mis-servicios{
+    display: grid;
+    justify-content: center;
+}
+@media(min-width:960px){
+    .contenedor-palabras{
+        width: 50%;
+    }
+    .contenedor-palabras-mis-servicios{
+        display: grid;
+        padding-top: 200px;
+        padding-left: 50px;
+    }
+    .inicio-mis-servicios{
+        display: flex;
+    }
+    
+}
+
+.palabra-mis{
+    font-family: "Poppins";
+    font-size: 60px;
+    line-height: 75px;
+    font-weight: 700;
+    color: #EEEEEE;
+    margin: 0;
+    padding-top: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}@media(min-width:960px){
+    .palabra-mis{
+        padding-top: 0;
+        text-align: left;
+        display: block;
+        font-size: 75px;
+    }
+}
+
+
+.palabra-servicios{
+    font-family: "Poppins";
+    font-size: 60px;
+    line-height: 75px;
+    font-weight: 700;
+    color:#00ADB5;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}@media(min-width:960px){
+    .palabra-servicios{
+        padding-top: 0;
+        text-align: left;
+        display: block;
+        font-size: 75px;
+    }
+}
+
+.contenedor-imagen-maletin{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}@media(min-width:960px){
+    .imagen-maletin{
+        width: 292px;
+        height: 281px;
+    }
+    .contenedor-imagen-maletin{
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    
+}
+
+.mis-servicios{
+    width: 100%;
+    height: 1700px;
+    background-image: url(../media/imgs/doodle\ items.png);
+    background-color: #13171C;
+  
+}@media(min-width:960px){
+    .mis-servicios{
+        height: 780px;
+    }
+    .contenedor-cards{
+        display: flex;
+        justify-content: center;
+    }
+    .contenedor-elementos-de-la-card{
+        padding-top: 80px;
+    }
+}
+
+
+
+.titulo{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-titulo-de-seccion{
+    display: flex;
+    justify-content: center;
+    width: 278px;
+    height: 63px;
+    margin-top: 70px;
+}
+
+.contenedor-elementos-de-la-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.primer-contenedor-background{
+    width: 324px;
+    height: 481px;
+    border-radius: 16px;
+    background: #393E4680;
+    margin-top: 50px;
+}
+
+.contenedor-imagen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-servicio{
+    width: 265px;
+    height: 158px;
+    padding: 45px 20px 20px 15px;
+}
+
+.contenedor-titulo-del-servicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-del-servicio{
+    width: 280px;
+    height: 73px;
+    font-family: "Poppins";
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.contenedor-descripcion-del-servicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.descripcion-del-servicio{
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    width: 280px;
+    height: 158px;
+
+}

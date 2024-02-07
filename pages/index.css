@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    margin: 0;
+}
+
+.home-bienvenida{
+    width: 100%;
+    height: 675px;
+    background-color: #13171C;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+@media(min-width:960px){
+    .home-bienvenida{
+        display: flex;
+    }
+}
+
+.contenedor-palabras-bienvenida{
+    width: 228px;
+    height: 225;
+}
+@media(min-width:960px){
+    .contenedor-palabras-bienvenida{
+        width: 586px;
+        height: 192px;
+        font-family: "Poppins";
+        font-size: 96px;
+        font-weight: 700;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: -150px;
+    }
+}
+
+.bienvenida-hola{
+    font-family: "Poppins";
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: #EEEEEE;
+    margin: 0;
+}
+@media(min-width:960px){
+    .bienvenida-hola{
+        font-size: 96px;
+        font-weight: 700;
+        text-align: left;
+        margin: 0;
+        height: 96px;
+    }
+}
+
+.bienvenida-soy-ema{
+    font-family: "Poppins";
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color:#00ADB5;
+    margin: 0;
+}
+@media(min-width:960px){
+    .bienvenida-soy-ema{
+        font-size: 96px;
+        font-weight: 700;
+        text-align: left;
+        margin: 0;
+        height: 96px;
+    }
+}
+
+
+.contenedor-bienvenida-cohete{
+    width: 219px;
+    height: 211px;
+    margin-bottom: 80px;
+}
+@media(min-width:960px){
+    .contenedor-bienvenida-cohete{
+        margin-bottom: -10px;
+    }
+}
+
+.section-presentacion{
+    width: 100%;
+    height: 789px;
+    background-color:#192130;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}@media(min-width:960px){
+    .section-presentacion{
+        height: 600px;
+    }
+}
+
+.contenedor-elementos-presentacion{
+    width: 82%;
+    height: 606px;
+    display: grid;
+    justify-content: center;
+}
+@media(min-width:960px){
+    .contenedor-elementos-presentacion{
+        display: flex;
+        height: 415px;
+        width:80%;
+    }
+    .contenedor-para-mediaQ{
+        width: 40%;
+        height: 100%;
+    }
+}
+
+.contenedor-soy-ema-texto{
+    width: 100%;
+}
+
+.soy-ema-texto{
+    width: 278.7px;
+    height: 55px;
+    font-family: "Poppins";
+    font-size: 42px;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+    margin: 0;
+}
+
+.contenedor-texto-presentacion{
+    width: 295px;
+    height: 243px; 
+}
+
+.texto-presentacion{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left; 
+    color: #EEEEEEBF;
+}
+
+.contenedor-imagen-presentacion{
+    width: 295px;
+    height: 241px;
+    margin-top: 40px;
+}@media(min-width:960px){
+    .contenedor-imagen-presentacion{
+        width: 60%;
+        height: 100%;
+        margin-top: 0;
+    }
+    .img-presentacion{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.mis-servicios{
+    width: 100%;
+    height: 1903px;
+    background-image: url(../media/imgs/doodle\ items.png);
+    background-color: #13171C;
+  
+}@media(min-width:960px){
+    .mis-servicios{
+        height: 830px;
+    }
+    .contenedor-cards{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+.titulo{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-titulo-de-seccion{
+    display: flex;
+    justify-content: center;
+    width: 278px;
+    height: 63px;
+    margin-top: 70px;
+}
+
+.palabra-mis{
+    font-family: "Poppins";
+    font-size: 42px;
+    font-weight: 700;
+    text-align: left;
+    color: #EEEEEE;
+    margin: 0;
+}
+
+.palabra-servicios{
+    font-family: "Poppins";
+    font-size: 42px;
+    font-weight: 700;
+    text-align: left;
+    color:#00ADB5;
+    margin: 0;
+    margin-left: 3%;
+}
+
+.contenedor-elementos-de-la-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.primer-contenedor-background{
+    width: 324px;
+    height: 481px;
+    border-radius: 16px;
+    background: #393E4680;
+    margin-top: 50px;
+}
+
+.contenedor-imagen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-servicio{
+    width: 265px;
+    height: 158px;
+    padding: 45px 20px 20px 15px;
+}
+
+.contenedor-titulo-del-servicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-del-servicio{
+    width: 280px;
+    height: 73px;
+    font-family: "Poppins";
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.contenedor-descripcion-del-servicio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.descripcion-del-servicio{
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    width: 280px;
+    height: 158px;
+
+}
+

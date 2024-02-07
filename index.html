@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pages/index.css">
+    <link rel="stylesheet" href="components/menuMobile/menu.css">
+    <link rel="stylesheet" href="components/header/header.css">
+    <link rel="stylesheet" href="./components/footer/footer.css">
+    <link rel="stylesheet" href="./components/contacto/contacto.css">
+    <script src="components/header/header.js"></script>
+    <script defer src="components/menuMobile/menu.js"></script>
+    <script src="./components/contacto/contacto.js"></script>
+    <script defer src="components/footer/footer.js"></script>  
+    <script defer src="pages/index.js"></script>
+</head>
+<body>
+    <div class="contenedor-header"></div>
+
+    <section class="home-bienvenida">
+        <div class="contenedor-palabras-bienvenida">
+            <p class="bienvenida-hola"></p>
+            <p class="bienvenida-soy-ema"></p>
+        </div>    
+        <div class="contenedor-bienvenida-cohete">
+            <img class="img-cohete" src="" alt="">
+        </div>
+    </section>
+
+    <section class="section-presentacion">
+        <div class="contenedor-elementos-presentacion">
+            
+            <div class="contenedor-para-mediaQ">
+                <div class="contenedor-soy-ema-texto">
+                    <p class="soy-ema-texto"></p>
+                </div>
+                <div class="contenedor-texto-presentacion">
+                    <p class="texto-presentacion"> </p>
+                </div>
+            </div>
+
+            <div class="contenedor-imagen-presentacion">
+                <img class="img-presentacion" src="" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="mis-servicios">
+        <div class="titulo">
+            <div class="contenedor-titulo-de-seccion">
+                <div class="contenedor palabra-mis">
+                    <p class="palabra-mis">Mis</p>
+                </div>  
+                <div class="contenedor palabra-servicios">
+                    <p class="palabra-servicios">servicios</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor-cards"></div>
+
+        <template id="card-template">
+            <div style="display: flex;" class="contenedor-elementos-de-la-card">
+                <div class="primer-contenedor-background">
+                    <div class="contenedor-imagen">
+                        <img class="imagen-servicio" src="" alt="">
+                    </div>
+                    <div class="contenedor-titulo-del-servicio">
+                        <p class="titulo-del-servicio"></p>
+                    </div>
+                    <div class="contenedor-descripcion-del-servicio">
+                        <p class="descripcion-del-servicio"></p>
+                    </div>
+                </div>
+            </div>
+        </template>
+
+    </section>
+
+    <div class="contenedor-contacto"></div>
+    
+    <div class="contenedor-footer"></div>
+</body>
+</html>

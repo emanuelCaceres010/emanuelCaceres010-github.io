@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.componente-footer{
+    background-color: #0F1113;
+    height: 534px;
+}
+
+.contenedor-logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer{
+    margin-top: 15%;
+}
+@media(min-width:960px){
+    .logo-footer{
+        margin-top: 10%;
+    }  
+}
+
+@media(min-width:960px){
+    .contenedor-logos-y-palabras-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+}
+
+.contenedor-home-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+@media(min-width:960px){
+    .contenedor-home-footer{
+       margin-top: 60px;
+       margin-bottom: none; 
+       width: 170px;
+    }  
+}
+
+
+.home-logo{  
+    width: 24px;
+    height: 24px;
+}
+
+.word-home{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color:#EEEEEE;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.contenedor-servicios-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 27px;
+}
+@media(min-width:960px){
+    .contenedor-servicios-footer{
+       margin-top: 65px;
+       margin-bottom: none; 
+       width: 178px;
+    }  
+}
+
+.servicios-logo-footer{
+    width: 30px;
+    height: 30px;
+}
+
+.word-servicios{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color:#EEEEEE;
+    text-decoration: none;
+    margin-right: 3.5px;
+}
+
+.contenedor-contacto-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(min-width:960px){
+    .contenedor-contacto-footer{
+       margin-top: 40px;
+       margin-bottom: none; 
+       width: 180px;
+    }  
+}
+
+.contacto-logo-footer{
+    margin-right: 5px;
+}
+
+.word-contacto{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color:#EEEEEE;
+    text-decoration: none;
+    margin-right: 4px;
+}
+
+.contenedor-del-contenedor-logos-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-logos-footer{
+    width: 192px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 45px;
+}
+@media(min-width:960px){
+    .contenedor-logos-footer{
+       margin-top: 6px;
+    }  
+}
+
+
+.contenedor-link-final-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+@media(min-width:960px){
+    .contenedor-link-final-footer{
+       margin-top: 95px;
+    }  
+}

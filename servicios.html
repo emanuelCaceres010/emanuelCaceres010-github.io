@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="components/menuMobile/menu.css">
+    <link rel="stylesheet" href="components/header/header.css">
+    <link rel="stylesheet" href="./components/footer/footer.css">
+    <link rel="stylesheet" href="./components/contacto/contacto.css">
+    <link rel="stylesheet" href="./pages/servicios.css">
+    <script defer src="components/header/header.js"></script>
+    <script defer src="components/menuMobile/menu.js"></script>
+    <script defer src="./components/contacto/contacto.js"></script>
+    <script defer src="components/footer/footer.js"></script>  
+    <script defer src="pages/servicios.js"></script>
+</head>
+<body>
+    <div class="contenedor-header"></div>
+
+    <section class="inicio-mis-servicios">
+        <div class="contenedor-palabras">   
+            <div class="contenedor-palabras-mis-servicios">
+                <div class="palabra-mis"></div>
+                <div class="palabra-servicios"></div>
+            </div>
+        </div>     
+        <div class="contenedor-imagen-maletin">
+            <img class="imagen-maletin" src="" alt="">
+        </div>
+    </section>
+
+    <section class="mis-servicios">
+        <div class="contenedor-cards"></div>
+
+        <template id="card-template">
+            <div style="display: flex;" class="contenedor-elementos-de-la-card">
+                <div class="primer-contenedor-background">
+                    <div class="contenedor-imagen">
+                        <img class="imagen-servicio" src="" alt="">
+                    </div>
+                    <div class="contenedor-titulo-del-servicio">
+                        <p class="titulo-del-servicio"></p>
+                    </div>
+                    <div class="contenedor-descripcion-del-servicio">
+                        <p class="descripcion-del-servicio"></p>
+                    </div>
+                </div>
+            </div>
+        </template>
+
+    </section>
+
+    <div class="contenedor-contacto"></div>
+    
+    <div class="contenedor-footer"></div>
+</body>
+</html>
